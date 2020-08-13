@@ -36,3 +36,13 @@ button {
     text-align: center;
     padding-top: 12px;
 }
+
+@media only screen and (max-device-width:425px) {
+    .outer-panel {
+        width: 100%;
+        padding: 0% 3%;
+    }
+    .title-text {
+        padding-top: 10%
+}
+}
